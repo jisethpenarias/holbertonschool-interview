@@ -16,7 +16,7 @@ skiplist_t *linear_skip(skiplist_t *list, int value)
 	node = list->express;
 
 	printf("Value checked at index [%lu] = [%d]\n", node->index, node->n);
-    
+
 	while (node && node->n < value)
 	{
 		list = node;
