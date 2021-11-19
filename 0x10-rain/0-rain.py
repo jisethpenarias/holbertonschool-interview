@@ -13,7 +13,7 @@ def rain(walls):
     Return: Integer indicating total amount of rainwater retained.
     """
 
-    
+
     n = len(walls)
     t_water = 0
 
